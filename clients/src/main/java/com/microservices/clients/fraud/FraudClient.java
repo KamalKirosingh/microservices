@@ -1,4 +1,4 @@
-package com.microservices.clients;
+package com.microservices.clients.fraud;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

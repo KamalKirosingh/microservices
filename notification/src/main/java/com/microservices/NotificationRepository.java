@@ -1,2 +1,6 @@
-package com.microservices;public class NotificationRepository {
+package com.microservices;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotificationRepository extends JpaRepository<Notification, Integer> {
 }
