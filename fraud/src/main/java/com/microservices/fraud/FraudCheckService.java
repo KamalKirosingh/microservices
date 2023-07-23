@@ -1,4 +1,4 @@
-package com.microservices;
+package com.microservices.fraud;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,14 +1,14 @@
-package com.microservices;
+package com.microservices.apigw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaServerApplication {
+@EnableEurekaClient
+public class ApiGWApplication {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        SpringApplication.run(EurekaServerApplication.class, args);
+        SpringApplication.run(ApiGWApplication.class, args);
     }
 }

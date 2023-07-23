@@ -1,4 +1,4 @@
-package com.microservices;
+package com.microservices.notification;
 
 import com.microservices.clients.notifcation.NotificationRequest;
 import lombok.AllArgsConstructor;

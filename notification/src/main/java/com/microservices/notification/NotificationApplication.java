@@ -1,11 +1,15 @@
-package com.microservices;
+package com.microservices.notification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@SpringBootApplication
-@EnableEurekaClient
+@SpringBootApplication(
+        scanBasePackages = {
+                "com.microservices.amqp",
+                "com.microservices.notification"
+        }
+)
+
 public class NotificationApplication {
     public static void main(String[] args) {
         System.out.println("Hello world!");

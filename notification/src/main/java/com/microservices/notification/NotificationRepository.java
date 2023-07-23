@@ -1,4 +1,4 @@
-package com.microservices;
+package com.microservices.notification;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
